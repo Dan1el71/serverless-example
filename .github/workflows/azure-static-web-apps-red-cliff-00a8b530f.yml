@@ -22,7 +22,7 @@ jobs:
       - name: Configurar Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16'
+          node-version: '22.14.0'
       - name: Instalar dependencias y compilar Angular
         run: |
           npm install
